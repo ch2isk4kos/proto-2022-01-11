@@ -1,4 +1,4 @@
-# Proto-site Blog Application Nov. 1, 2022
+# Blog Proto-site: Nov. 1, 2022
 
 <br>
 
