@@ -12,7 +12,7 @@
 
 **[React Boostrap](https://react-bootstrap.github.io/)**
 
-**[React Router v6](https://react-bootstrap.github.io/)**
+**[React Router v6](https://remix.run/blog/react-router-v6)**
 
 ### Server
 
