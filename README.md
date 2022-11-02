@@ -10,7 +10,7 @@
 
 **[React](https://react.io)**
 
-**[React Boostrap](https://react-bootstrap.github.io/)**
+**[React Bootstrap](https://react-bootstrap.github.io/)**
 
 **[React Router v6](https://remix.run/blog/react-router-v6)**
 
