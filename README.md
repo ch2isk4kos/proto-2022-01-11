@@ -16,8 +16,12 @@
 
 ### Content Management System (CMS)
 
-**[Prismic](https://prismic.io)**
+<!-- **[Prismic](https://prismic.io)** -->
+
+**[Prismic](https://github.com/prismicio/reactjs-blog)**
 
 ### Payment Management System (PMS)
 
 **[TBD]()** _(Shopify vs Stripe)_
+
+<br>
