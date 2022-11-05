@@ -80,7 +80,7 @@ const Footer = () => {
           <Nav className="justify-content-end" activeKey="/home">
             <Nav.Item>
               <Nav.Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/">Contact</Link>
               </Nav.Link>
             </Nav.Item>
             {/* <Nav.Item>
