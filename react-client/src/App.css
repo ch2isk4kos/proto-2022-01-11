@@ -1,6 +1,10 @@
+/* * */
+
 .App {
   text-align: center;
 }
+
+/* LAYOUT COMPONENT */
 
 .Layout {
   top: 0;
@@ -9,6 +13,8 @@
   height: 100vh;
   margin: auto;
 }
+
+/* HOME COMPONENT */
 
 .Home {
   width: 100%;
@@ -44,6 +50,8 @@
   width: 100%;
   border: 2px solid blue;
 }
+
+/* FOOTER COMPONENT */
 
 .Footer {
   position: absolute;
