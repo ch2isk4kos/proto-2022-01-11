@@ -10,7 +10,8 @@ import { Link } from "react-router-dom";
 const Navigation = () => {
   //   const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
       <Container>
         <Navbar.Brand href="home">
           <Link to="home">MSJ</Link>
