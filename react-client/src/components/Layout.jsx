@@ -7,6 +7,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Articles from "./articles/Articles";
 import Signin from "./auth/Signin";
+import Footer from "./Footer";
 
 import React from "react";
 
@@ -24,6 +25,8 @@ const Layout = () => {
         <Route path="/articles" element={<Articles />} />
         <Route path="/signin" element={<Signin />} />
       </Routes>
+
+      <Footer />
     </div>
   );
 };

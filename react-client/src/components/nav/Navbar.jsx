@@ -31,16 +31,10 @@ const Navigation = () => {
           <Nav.Link>
             <Link to="history">History</Link>
           </Nav.Link>
-          <Nav.Link>
-            <Link to="store">Store</Link>
-          </Nav.Link>
         </Nav>
         <Nav>
           <Nav.Link>
-            <Link to="about">About</Link>
-          </Nav.Link>
-          <Nav.Link>
-            <Link to="contact">Contact</Link>
+            <Link to="store">Store</Link>
           </Nav.Link>
           <Nav.Link eventKey={2}>
             <Link to="signin">Sign In</Link>
