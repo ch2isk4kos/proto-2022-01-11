@@ -53,14 +53,14 @@ const Navigation = () => {
           </Nav.Link>
         </Nav>
         <Nav>
-          <Nav.Link href="about">
-            <Link>About</Link>
+          <Nav.Link>
+            <Link to="about">About</Link>
           </Nav.Link>
-          <Nav.Link href="contact">
-            <Link>Contact</Link>
+          <Nav.Link>
+            <Link to="contact">Contact</Link>
           </Nav.Link>
-          <Nav.Link eventKey={2} href="signin">
-            <Link>Sign In</Link>
+          <Nav.Link eventKey={2}>
+            <Link to="signin">Sign In</Link>
           </Nav.Link>
           {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
