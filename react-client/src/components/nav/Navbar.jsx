@@ -22,18 +22,21 @@ const Navigation = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">MSJ</Navbar.Brand>
+        <Navbar.Brand href="home">MSJ</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         {/* <Navbar.Collapse id="responsive-navbar-nav"> */}
         {/* <Nav className="me-auto"> */}
         <Nav className="justify-content-end">
-          <Nav.Link href="#articles">Articles</Nav.Link>
-          <Nav.Link href="#schedule">Schedule</Nav.Link>
-          <Nav.Link href="#statistics">Statistics</Nav.Link>
+          <Nav.Link href="articles">Articles</Nav.Link>
+          <Nav.Link href="schedule">Schedule</Nav.Link>
+          <Nav.Link href="statistic">Statistics</Nav.Link>
+          <Nav.Link href="history">History</Nav.Link>
+          <Nav.Link href="store">Store</Nav.Link>
         </Nav>
         <Nav>
-          <Nav.Link href="#shop">Store</Nav.Link>
-          <Nav.Link eventKey={2} href="#Sign In">
+          <Nav.Link href="about">About</Nav.Link>
+          <Nav.Link href="contact">Contact</Nav.Link>
+          <Nav.Link eventKey={2} href="signin">
             Sign In
           </Nav.Link>
           {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">

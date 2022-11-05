@@ -9,14 +9,18 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { PrismicProvider } from "@prismicio/react";
 import { client } from "./api/prismic";
 
+import { BrowserRouter } from "react-router-dom";
+
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <PrismicProvider client={client}>
-      <App />
-    </PrismicProvider>
+    <BrowserRouter>
+      <PrismicProvider client={client}>
+        <App />
+      </PrismicProvider>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
