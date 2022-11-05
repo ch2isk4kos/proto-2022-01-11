@@ -7,18 +7,6 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 import { Link } from "react-router-dom";
 
-// const Navbar = () => {
-//   return (
-//     <div className="Navbar">
-//       <ul>
-//         <li>Home</li>
-//         <li>About</li>
-//         <li>Contact</li>
-//       </ul>
-//     </div>
-//   );
-// };
-
 const Navigation = () => {
   //   const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
   return (
@@ -31,11 +19,6 @@ const Navigation = () => {
         {/* <Navbar.Collapse id="responsive-navbar-nav"> */}
         {/* <Nav className="me-auto"> */}
         <Nav className="justify-content-end">
-          {/* <Nav.Link href="articles">Articles</Nav.Link>
-          <Nav.Link href="schedule">Schedule</Nav.Link>
-          <Nav.Link href="statistic">Statistics</Nav.Link>
-          <Nav.Link href="history">History</Nav.Link>
-          <Nav.Link href="store">Store</Nav.Link> */}
           <Nav.Link>
             <Link to="articles">Articles</Link>
           </Nav.Link>
