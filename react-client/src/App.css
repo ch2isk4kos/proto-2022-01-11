@@ -28,24 +28,24 @@
   border: 5px solid red;
 }
 
-.home-header-left {
+.home-header .left {
   height: 100%;
   width: 25%;
   border: 5px solid orange;
 }
 
-.home-header-middle {
+.home-header .middle {
   height: 100%;
   width: 50%;
   border: 5px solid orange;
 }
-.home-header-right {
+.home-header .right {
   height: 100%;
   width: 25%;
   border: 5px solid orange;
 }
 
-.Carousel {
+.home-header .middle .Carousel {
   height: 100%;
   width: 100%;
   border: 2px solid blue;

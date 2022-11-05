@@ -1,14 +1,16 @@
 import React from "react";
-import Carousel from "react-bootstrap/Carousel";
+// import Carousel from "react-bootstrap/Carousel";
+import Header from "./Header";
 
 const Home = () => {
   return (
     <div className="Home">
       {/* <h1>Homepage</h1> */}
       <div className="home-header">
-        <section className="home-header-left"></section>
-        <section className="home-header-middle">
-          <Carousel className="Carousel" variant="dark">
+        <section className="left"></section>
+        <section className="middle">
+          <Header />
+          {/* <Carousel className="Carousel" variant="dark">
             <Carousel.Item interval={2000}>
               <img
                 className="d-block w-100"
@@ -47,9 +49,9 @@ const Home = () => {
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
-          </Carousel>
+          </Carousel> */}
         </section>
-        <section className="home-header-right"></section>
+        <section className="right"></section>
       </div>
     </div>
   );
