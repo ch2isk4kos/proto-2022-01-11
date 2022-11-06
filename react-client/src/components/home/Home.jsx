@@ -6,6 +6,8 @@ const Home = () => {
   return (
     <div className="Home">
       {/* <h1>Homepage</h1> */}
+      {/* SECTION 1 */}
+      {/* SECTION 2 */}
       <div className="home-header">
         <section className="left"></section>
         <section className="middle">
