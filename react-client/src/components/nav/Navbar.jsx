@@ -14,7 +14,7 @@ const Navigation = () => {
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
       <Container>
         <Navbar.Brand href="home">
-          <Link to="home">MSJ</Link>
+          <Link to="home">LOGO</Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         {/* <Navbar.Collapse id="responsive-navbar-nav"> */}
