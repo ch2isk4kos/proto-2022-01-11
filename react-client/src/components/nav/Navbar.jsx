@@ -24,7 +24,8 @@ const Navigation = () => {
             <Link to="articles">Articles</Link>
           </Nav.Link>
           <Nav.Link>
-            <Link to="schedule">Schedule</Link>
+            {/* <Link to="schedule">Schedule</Link> */}
+            <Link to="article">Article</Link>
           </Nav.Link>
           <Nav.Link>
             <Link to="statistic">Statistics</Link>

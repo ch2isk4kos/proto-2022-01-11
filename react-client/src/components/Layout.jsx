@@ -6,6 +6,7 @@ import Home from "./home/Home";
 import About from "./About";
 import Contact from "./Contact";
 import Articles from "./articles/Articles";
+import Article from "./articles/Article";
 import Signin from "./auth/Signin";
 import Footer from "./nav/Footer";
 
@@ -22,7 +23,7 @@ const Layout = () => {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/articles" element={<Articles />} />
-        <Route path="/articles" element={<Articles />} />
+        <Route path="/article" element={<Article />} />
         <Route path="/signin" element={<Signin />} />
       </Routes>
 

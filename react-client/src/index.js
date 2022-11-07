@@ -16,11 +16,16 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <PrismicProvider client={client}>
+    <PrismicProvider
+      client={client}
+      // internalLinkComponent={({ href, ...props }) => (
+      //   <Link to={href} {...props} />
+      // )}
+    >
+      <BrowserRouter>
         <App />
-      </PrismicProvider>
-    </BrowserRouter>
+      </BrowserRouter>
+    </PrismicProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
