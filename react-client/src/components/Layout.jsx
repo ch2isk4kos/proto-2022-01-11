@@ -7,7 +7,8 @@ import About from "./About";
 import Contact from "./Contact";
 import Articles from "./articles/Articles";
 import Signin from "./auth/Signin";
-import Footer from "./Footer";
+import Footer from "./nav/Footer";
+import Navticker from "./nav/Navticker";
 
 import React from "react";
 
@@ -15,6 +16,7 @@ const Layout = () => {
   return (
     <div className="Layout">
       <Navbar />
+      <Navticker />
 
       <Routes>
         <Route path="/" element={<Landing />} />
