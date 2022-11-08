@@ -26,8 +26,8 @@ const ArticleCard = ({ article }) => {
           </Card.Text>
         </Card.Body>
       </Card> */}
-      <Card style={{ width: "24rem" }}>
-        {/* <Card style={{ width: "18rem" }}> */}
+      {/* <Card style={{ height: "6rem", width: "24rem" }}> */}
+      <Card style={{ width: "18rem" }}>
         {/* <Card> */}
         <Card.Img variant="top" src="holder.js/100px160" />
         <Card.Body>
