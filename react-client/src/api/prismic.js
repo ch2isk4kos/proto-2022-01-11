@@ -15,14 +15,14 @@ export const client = prismic.createClient(repositoryName, {
   // If you are not using a router in your project, you can change this
   // to an empty array or remove the option entirely.
   routes: [
-    // {
-    //   type: "homepage",
-    //   path: "/",
-    // },
     {
       type: "article",
-      path: "/article",
+      path: "/articles",
     },
+    // {
+    //   type: "article",
+    //   path: "/article/:id",
+    // },
   ],
 });
 
