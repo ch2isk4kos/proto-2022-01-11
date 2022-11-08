@@ -56,7 +56,47 @@
   border: 2px solid blue;
 }
 
+/* ARTICLES COMPONENT */
+
+.Articles {
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 100%;
+  height: 90%;
+}
+
+.articles-header {
+  display: flex;
+  /* height: 100%;
+  width: 100%; */
+  border: 5px solid green;
+}
+
+.articles-header .sect-1,
+.sect-4 {
+  width: 10%;
+}
+
+.articles-header .sect-2 {
+  width: 40%;
+  border: 5px solid orange;
+}
+.articles-header .sect-3 {
+  width: 40%;
+  border: 5px solid orange;
+}
+
+.articles-header .sect-3 .header-carousel {
+  /* height: 33rem; */
+  height: 100%;
+  border: 5px solid blue;
+}
+
+.articles-grid {
+}
+
 /* ARTICLE THUMBNAIL COMPONENT */
+
 /* .ArticleThumbNail {
   border: 2px solid blue;
 } */
