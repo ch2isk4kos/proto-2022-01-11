@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import ArticleThumbNail from "./ArticleCard";
+import ArticleCard from "./ArticleCard";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { useAllPrismicDocumentsByType } from "@prismicio/react";
@@ -15,7 +15,7 @@ const Articles = () => {
         {Array.from({ length: 4 }).map((_, idx) => (
           <Col>
             {articles &&
-              articles.map((article) => <ArticleThumbNail article={article} />)}
+              articles.map((article) => <ArticleCard article={article} />)}
           </Col>
         ))}
       </Row>
