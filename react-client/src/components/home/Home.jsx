@@ -1,5 +1,7 @@
 import React from "react";
 import Header from "./Header";
+import HomeSection2 from "./HomeSection2";
+import HomeSection3 from "./HomeSection3";
 
 const Home = () => {
   return (
@@ -52,6 +54,8 @@ const Home = () => {
         </section>
         <section className="right"></section>
       </div>
+      <HomeSection2 />
+      <HomeSection3 />
       {/* SECTION 2 */}
       {/* SECTION 3 */}
     </div>

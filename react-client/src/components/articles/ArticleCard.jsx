@@ -13,6 +13,7 @@ const ArticleCard = ({ article }) => {
   // const timestamp = prismicH.asText(article.data.timestamptest) || "null";
   const firstP = prismicH.asText(article.data.paragraphtest) || "null";
   const secondP = prismicH.asText(article.data.paragraphtest2) || "null";
+
   return (
     <div className="ArticleThumbNail">
       {/* <h3>{title}</h3> */}

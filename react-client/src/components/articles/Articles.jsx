@@ -20,7 +20,7 @@ const Articles = () => {
       <div className="articles-grid">
         <Row xs={1} md={3} className="g-4">
           {/* <Row className="articles-grid-row"> */}
-          {Array.from({ length: 4 }).map((_, idx) => (
+          {Array.from({ length: 3 }).map((_, idx) => (
             <Col>
               {articles &&
                 articles.map((article) => <ArticleCard article={article} />)}
