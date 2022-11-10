@@ -1,25 +1,52 @@
 /* * */
-* {
+*,
+html {
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 .App {
-  text-align: center;
-  top: 0;
-  left: 0;
   width: 100vw;
   height: 100vh;
+  text-align: center;
+  border: 5px solid blue;
 }
 
-/* LAYOUT COMPONENT */
+/* LAYOUT */
 
 .Layout {
   width: 100%;
   height: 100%;
-  /* border: 5px solid green; */
+  border: 5px solid green;
 }
 
-/* HOME COMPONENT */
+/* NAVBAR */
+
+.Navbar {
+  top: 0;
+}
+
+/* MAIN CONTAINER */
+
+.MainContainer {
+  /* position: absolute; */
+  position: relative;
+  width: 100%;
+  height: 90%;
+  /* overflow-y: scroll; */
+  border: 5px solid red;
+}
+
+/* FOOTER */
+
+.Footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  border-top: 1px solid gray;
+}
+
+/* HOME */
 
 .Home {
   width: 100%;
@@ -28,7 +55,7 @@
 
 .home-header {
   display: flex;
-  height: 33%;
+  height: 30%;
   width: 100%;
   border: 5px solid red;
 }
@@ -44,6 +71,7 @@
   width: 50%;
   border: 5px solid orange;
 }
+
 .home-header .right {
   height: 100%;
   width: 25%;
@@ -53,23 +81,19 @@
 .home-header .middle .Carousel {
   height: 100%;
   width: 100%;
-  border: 2px solid blue;
 }
 
-/* ARTICLES COMPONENT */
+/* ARTICLES */
 
 .Articles {
-  /* display: flex; */
-  /* flex-direction: column; */
-  width: 100%;
-  height: 90%;
+  height: 100%;
+  border: 5px solid lightseagreen;
 }
 
 .articles-header {
   display: flex;
-  /* height: 100%;
-  width: 100%; */
-  border: 5px solid green;
+  height: 33rem;
+  border: 5px solid orange;
 }
 
 .articles-header .sect-1,
@@ -79,34 +103,38 @@
 
 .articles-header .sect-2 {
   width: 40%;
-  border: 5px solid orange;
+  border: 2px solid red;
 }
 .articles-header .sect-3 {
   width: 40%;
-  border: 5px solid orange;
+  border: 2px solid red;
 }
 
 .articles-header .sect-3 .header-carousel {
   /* height: 33rem; */
   height: 100%;
-  border: 5px solid blue;
 }
 
 .articles-grid {
+  /* justify-content: center; */
+  padding-left: 9rem;
+  /* padding-right: 2rem; */
+  height: auto;
+  border: 5px solid red;
 }
 
-/* ARTICLE THUMBNAIL COMPONENT */
+.articles-grid-row {
+  /* position: relative; */
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: 5px solid black;
+}
 
-/* .ArticleThumbNail {
-  border: 2px solid blue;
+/* ARTICLE CARD */
+
+/* .ArticleCard {
 } */
 
-/* FOOTER COMPONENT */
-
-.Footer {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  border-top: 1px solid gray;
+.articles-pagination {
+  /* position: absolute; */
 }

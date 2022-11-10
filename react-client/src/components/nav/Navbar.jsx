@@ -11,37 +11,38 @@ const Navigation = () => {
   //   const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
   return (
     // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-    <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-      <Container>
-        <Navbar.Brand href="home">
-          <Link to="home">LOGO</Link>
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        {/* <Navbar.Collapse id="responsive-navbar-nav"> */}
-        {/* <Nav className="me-auto"> */}
-        <Nav className="justify-content-end">
-          <Nav.Link>
-            <Link to="articles">Articles</Link>
-          </Nav.Link>
-          <Nav.Link>
-            {/* <Link to="schedule">Schedule</Link> */}
-            <Link to="article">Article</Link>
-          </Nav.Link>
-          <Nav.Link>
-            <Link to="statistic">Statistics</Link>
-          </Nav.Link>
-          <Nav.Link>
-            <Link to="history">History</Link>
-          </Nav.Link>
-        </Nav>
-        <Nav>
-          <Nav.Link>
-            <Link to="store">Store</Link>
-          </Nav.Link>
-          <Nav.Link eventKey={2}>
-            <Link to="signin">Sign In</Link>
-          </Nav.Link>
-          {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+    <div className="Navbar">
+      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+        <Container>
+          <Navbar.Brand href="home">
+            <Link to="home">LOGO</Link>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          {/* <Navbar.Collapse id="responsive-navbar-nav"> */}
+          {/* <Nav className="me-auto"> */}
+          <Nav className="justify-content-end">
+            <Nav.Link>
+              <Link to="articles">Articles</Link>
+            </Nav.Link>
+            <Nav.Link>
+              {/* <Link to="schedule">Schedule</Link> */}
+              <Link to="article">Article</Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link to="statistic">Statistics</Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link to="history">History</Link>
+            </Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link>
+              <Link to="store">Store</Link>
+            </Nav.Link>
+            <Nav.Link eventKey={2}>
+              <Link to="signin">Sign In</Link>
+            </Nav.Link>
+            {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -52,10 +53,11 @@ const Navigation = () => {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown> */}
-        </Nav>
-        {/* </Navbar.Collapse> */}
-      </Container>
-    </Navbar>
+          </Nav>
+          {/* </Navbar.Collapse> */}
+        </Container>
+      </Navbar>
+    </div>
   );
 };
 
