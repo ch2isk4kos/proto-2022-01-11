@@ -5,11 +5,12 @@ import Carousel from "react-bootstrap/Carousel";
 
 const HomeHeader = () => {
   return (
-    <Row>
-      {/* LEFT */}
-      <Col>1 of 3</Col>
-      <Col xs={5}>
-        {/* MIDDLE */}
+    // <Row style={{ height: "100%" }}>
+    <Row className="home-header">
+      {/* HOME HEADER LEFT */}
+      <Col className="hh-left">1 of 3</Col>
+      {/* HOME HEADER MIDDLE */}
+      <Col xs={6} className="hh-middle">
         <Carousel className="Carousel" variant="dark">
           <Carousel.Item interval={2000}>
             <img
@@ -48,8 +49,8 @@ const HomeHeader = () => {
           </Carousel.Item>
         </Carousel>
       </Col>
-      <Col>3 of 3</Col>
-      {/* RIGHT */}
+      {/* HOME HEADER RIGHT */}
+      <Col className="hh-right">3 of 3</Col>
     </Row>
   );
 };
