@@ -95,12 +95,12 @@ html {
 }
 
 .home-section-2 .highlight-card {
-  border: 5px green solid;
+  border: 5px orange solid;
 }
 
 .home-section-3 {
   height: auto;
-  border: 5px red solid;
+  border: 2px red solid;
 }
 
 /* ARTICLES */

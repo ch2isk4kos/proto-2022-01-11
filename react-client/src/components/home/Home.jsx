@@ -12,15 +12,9 @@ const Home = () => {
     <div className="Home">
       <Container>
         {/* <Container fluid> */}
-        {/* <div className="home-header"> */}
         <HomeHeader />
-        {/* </div> */}
-        {/* <div className="home-section-2"> */}
         <HomeSection2 />
-        {/* </div> */}
-        <div className="home-section-3">
-          <HomeSection3 />
-        </div>
+        <HomeSection3 />
       </Container>
     </div>
   );
