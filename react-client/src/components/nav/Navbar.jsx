@@ -1,5 +1,5 @@
 import React from "react";
-
+import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -38,7 +38,7 @@ const Navigation = () => {
             </Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link>
+            <Nav.Link eventKey={1}>
               <Link to="store">Store</Link>
             </Nav.Link>
             <Nav.Link eventKey={2}>
@@ -55,6 +55,19 @@ const Navigation = () => {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown> */}
+            <Button variant="primary">
+              <Link
+                to="signup"
+                style={{
+                  // padding: "10px",
+                  // border: "1px solid blue",
+                  // borderRadius: "5px",
+                  color: "white",
+                }}
+              >
+                Sign Up
+              </Link>
+            </Button>
           </Nav>
           {/* </Navbar.Collapse> */}
         </Container>

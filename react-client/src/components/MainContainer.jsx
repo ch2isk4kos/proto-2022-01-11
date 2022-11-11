@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import Articles from "./articles/Articles";
 import Article from "./articles/Article";
 import Signin from "./auth/Signin";
+import Signup from "./auth/Signup";
 import { Routes, Route } from "react-router-dom";
 
 const MainContainer = () => {
@@ -19,6 +20,7 @@ const MainContainer = () => {
         <Route path="/articles" element={<Articles />} />
         <Route path="/article/:id" element={<Article />} />
         <Route path="/signin" element={<Signin />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
     </main>
   );
