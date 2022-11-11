@@ -1,11 +1,29 @@
 import React from "react";
+import HighlightCard from "./HomeHighlightCard";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
-const HomeHighlightBar = () => {
+const HomeSection2 = () => {
   return (
-    <div className="home-section-2">
-      <h1>highlight bar</h1>
-    </div>
+    <Row className="home-section-2">
+      <h1>Today's Highlights</h1>
+      <Col>
+        <HighlightCard />
+      </Col>
+      <Col>
+        <HighlightCard />
+      </Col>
+      <Col>
+        <HighlightCard />
+      </Col>
+      <Col>
+        <HighlightCard />
+      </Col>
+      <Col>
+        <HighlightCard />
+      </Col>
+    </Row>
   );
 };
 
-export default HomeHighlightBar;
+export default HomeSection2;

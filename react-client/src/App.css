@@ -63,21 +63,24 @@ html {
 .home-header {
   /* height: 50rem; */
   height: 33rem;
-  width: 100%;
+  /* width: 100%; */
   border: 5px solid red;
 }
 
-.Home .home-header .hh-left {
+.home-header .hh-left {
   height: 100%;
+  /* padding: 0; */
   border: 5px solid orange;
 }
 
 .home-header .hh-middle {
   height: 100%;
+  padding: 0;
   border: 5px solid orange;
 }
 
 .home-header .hh-right {
+  /* padding: 0; */
   border: 5px solid orange;
 }
 
@@ -89,6 +92,10 @@ html {
 .home-section-2 {
   height: 30%;
   border: 5px red solid;
+}
+
+.home-section-2 .highlight-card {
+  border: 5px green solid;
 }
 
 .home-section-3 {
