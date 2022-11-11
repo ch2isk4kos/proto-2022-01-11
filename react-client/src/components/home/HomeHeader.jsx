@@ -8,7 +8,9 @@ const HomeHeader = () => {
     // <Row style={{ height: "100%" }}>
     <Row className="home-header">
       {/* HOME HEADER LEFT */}
-      <Col className="hh-left">1 of 3</Col>
+      <Col className="hh-left">
+        <p>Column 1</p>
+      </Col>
       {/* HOME HEADER MIDDLE */}
       <Col xs={6} className="hh-middle">
         <Carousel className="Carousel" variant="dark">
@@ -50,7 +52,9 @@ const HomeHeader = () => {
         </Carousel>
       </Col>
       {/* HOME HEADER RIGHT */}
-      <Col className="hh-right">3 of 3</Col>
+      <Col className="hh-right">
+        <p>Column 3</p>
+      </Col>
     </Row>
   );
 };
