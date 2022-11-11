@@ -26,12 +26,14 @@ const Navigation = () => {
             </Nav.Link>
             <Nav.Link>
               {/* <Link to="schedule">Schedule</Link> */}
-              <Link to="article">Article</Link>
+              <Link to="podcast">Podcast</Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to="statistic">Statistics</Link>
+              {/* <Link to="statistics">Statistics</Link> */}
+              <Link to="statistics">Events</Link>
             </Nav.Link>
             <Nav.Link>
+              {/* <Link to="history">History</Link> */}
               <Link to="history">History</Link>
             </Nav.Link>
           </Nav>
