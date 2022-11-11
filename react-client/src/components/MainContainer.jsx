@@ -1,5 +1,5 @@
 import React from "react";
-import Landing from "./Landing";
+import Landing from "./landing/Landing";
 import Home from "./home/Home";
 import About from "./About";
 import Contact from "./Contact";
