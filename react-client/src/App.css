@@ -108,6 +108,7 @@ html {
 .Articles {
   height: auto;
   /* border: 5px solid lightseagreen; */
+  overflow-y: scroll;
 }
 
 .articles-header {
@@ -203,4 +204,36 @@ html {
 
 .articles-pagination {
   /* position: absolute; */
+}
+
+/* SIGNIN */
+
+.Signin {
+  height: auto;
+  overflow-y: scroll;
+}
+
+.signin-form {
+  border: 5px solid red;
+}
+
+.signin-form .sf-col-1 {
+  /* border: 0.123em solid lightgray; */
+  border: 5px solid orange;
+}
+
+.signin-form .sf-col-2 {
+  /* border: 0.123em solid lightgray; */
+  padding: 0;
+  border: 5px solid orange;
+}
+
+.signin-form .sf-col-2 Form {
+  /* border: 0.123em solid lightgray; */
+  border: 2px solid lightgray;
+}
+
+.signin-form .sf-col-2 Form.Group {
+  /* border: 0.123em solid lightgray; */
+  border: 2px solid blue;
 }
