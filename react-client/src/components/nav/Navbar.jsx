@@ -30,11 +30,11 @@ const Navigation = () => {
             </Nav.Link>
             <Nav.Link>
               {/* <Link to="statistics">Statistics</Link> */}
-              <Link to="statistics">Events</Link>
+              <Link to="webcast">Webcast</Link>
             </Nav.Link>
             <Nav.Link>
               {/* <Link to="history">History</Link> */}
-              <Link to="history">History</Link>
+              <Link to="events">Events</Link>
             </Nav.Link>
           </Nav>
           <Nav>
