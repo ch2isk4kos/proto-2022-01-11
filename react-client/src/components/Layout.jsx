@@ -1,6 +1,6 @@
 import React from "react";
 // import { Routes, Route } from "react-router-dom";
-import Navbar from "./nav/Navbar";
+import NavbarTop from "./nav/NavbarTop";
 import MainContainer from "./MainContainer";
 // import Landing from "./Landing";
 // import Home from "./home/Home";
@@ -14,7 +14,7 @@ import Footer from "./nav/Footer";
 const Layout = () => {
   return (
     <div className="Layout">
-      <Navbar />
+      <NavbarTop />
       <MainContainer />
       <Footer />
 

@@ -7,6 +7,10 @@ html {
   scroll-behavior: smooth;
 }
 
+Nav Link {
+  text-decoration: none;
+}
+
 .App {
   width: 100vw;
   height: 100vh;
