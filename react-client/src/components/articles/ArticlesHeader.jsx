@@ -2,33 +2,15 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Carousel from "react-bootstrap/Carousel";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom";
 
 const ArticlesHeader = () => {
   return (
-    <div className="articles-header">
-      <section className="sect-1"></section>
-      <section className="sect-2">
-        <Card className="text-center">
-          <Card.Header>Featured</Card.Header>
-          <Card.Body>
-            <Card.Title>Special title treatment</Card.Title>
-            <Card.Text>
-              With supporting text below as a natural lead-in to additional
-              content.
-            </Card.Text>
-            <Button variant="primary">
-              <Link to={`#`} style={{ color: "white" }}>
-                Read More
-              </Link>
-            </Button>
-            {/* <Button variant="primary"><Link to={`/article/${}`}>Read More</Link></Button> */}
-          </Card.Body>
-          <Card.Footer className="text-muted">2 days ago</Card.Footer>
-        </Card>
-      </section>
-      <section className="sect-3">
-        <Carousel className="header-carousel" variant="dark">
+    <Row className="articles-header">
+      <Col className="ah-left">
+        <Carousel className="Carousel" variant="dark">
           <Carousel.Item interval={2000}>
             <img
               className="d-block w-100"
@@ -65,9 +47,31 @@ const ArticlesHeader = () => {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-      </section>
-      <section className="sect-4"></section>
-    </div>
+      </Col>
+      <Col xs={6} className="ah-right">
+        <p>Header Column 2</p>
+        {/* <Card className="text-center">
+          <Card.Header>Featured</Card.Header>
+
+          <Card.Body>
+            <Card.Title>Special title treatment</Card.Title>
+
+            <Card.Text>
+              With supporting text below as a natural lead-in to additional
+              content.
+            </Card.Text>
+
+            <Button variant="primary">
+              <Link to={`#`} style={{ color: "white" }}>
+                Read More
+              </Link>
+            </Button>
+
+          </Card.Body>
+          <Card.Footer className="text-muted">2 days ago</Card.Footer>
+        </Card> */}
+      </Col>
+    </Row>
   );
 };
 

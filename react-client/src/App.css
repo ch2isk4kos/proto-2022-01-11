@@ -107,16 +107,66 @@ html {
 
 .Articles {
   height: auto;
-  border: 5px solid lightseagreen;
+  /* border: 5px solid lightseagreen; */
 }
 
 .articles-header {
-  display: flex;
   height: 33rem;
+  border: 5px solid red;
+}
+
+.articles-header .ah-left {
+  padding: 0;
   border: 5px solid orange;
 }
 
-.articles-header .sect-1,
+.articles-header .ah-left .Carousel {
+  height: 100%;
+  border: 2px solid blue;
+}
+
+.articles-header .ah-right {
+  height: 100%;
+  border: 5px solid orange;
+}
+
+.articles-section-2 {
+  border: 5px solid red;
+}
+
+.articles-section-2 .as2-left {
+  border: 5px solid orange;
+}
+
+.articles-section-2 .as2-right {
+  border: 5px solid orange;
+}
+
+.articles-section-3 {
+  border: 5px solid red;
+}
+
+.articles-section-3 .as3-right {
+  border: 5px solid orange;
+}
+
+.articles-section-3 .as3-middle {
+  border: 5px solid orange;
+}
+
+.articles-section-3 .as3-left {
+  border: 5px solid orange;
+}
+
+.articles-section-4 {
+  border: 5px solid red;
+}
+
+.articles-section-4 .as4-main {
+  border: 5px solid orange;
+}
+
+/* .articles-header .sect-1,
 .sect-4 {
   width: 10%;
 }
@@ -131,24 +181,20 @@ html {
 }
 
 .articles-header .sect-3 .header-carousel {
-  /* height: 33rem; */
   height: 100%;
-}
+} */
 
-.articles-grid {
-  /* justify-content: center; */
+/* .articles-grid {
   padding-left: 9rem;
-  /* padding-right: 2rem; */
   height: auto;
   border: 5px solid red;
 }
 
 .articles-grid-row {
-  /* position: relative; */
   padding-left: 2rem;
   padding-right: 2rem;
   border: 5px solid black;
-}
+} */
 
 /* ARTICLE CARD */
 
