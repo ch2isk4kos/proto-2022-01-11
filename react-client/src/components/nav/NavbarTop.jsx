@@ -36,11 +36,14 @@ const NavbarTop = () => {
               {/* <Link to="history">History</Link> */}
               <Link to="events">Events</Link>
             </Nav.Link>
-          </Nav>
-          <Nav>
-            <Nav.Link eventKey={1}>
+            <Nav.Link>
               <Link to="store">Store</Link>
             </Nav.Link>
+          </Nav>
+          <Nav>
+            {/* <Nav.Link eventKey={1}>
+              <Link to="store">Store</Link>
+            </Nav.Link> */}
             <Nav.Link eventKey={2}>
               <Link to="signin">Sign In</Link>
             </Nav.Link>
