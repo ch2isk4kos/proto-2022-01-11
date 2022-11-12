@@ -1,5 +1,7 @@
 # Blog Proto-site: Nov. 1, 2022
 
+![React Logo](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjasonzhao1998.github.io%2Fimages%2Freact_logo.png&f=1&nofb=1&ipt=8c2755bca159b11a091a972aa0b16194f59cc0b087a95e528783453984bf45ea&ipo=images)
+
 <br>
 
 ## TOOLS
