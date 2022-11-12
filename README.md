@@ -12,7 +12,11 @@
 
 **[React Bootstrap](https://react-bootstrap.github.io/)**
 
+**[React Hook Form](https://react-hook-form.com/)**
+
 **[React Router v6](https://remix.run/blog/react-router-v6)**
+
+**[Framer Motion](https://www.framer.com/motion/)**
 
 ### Server
 
