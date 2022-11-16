@@ -24,6 +24,10 @@
 
 **[TBD]()** _(probably Node)_
 
+### Authentication
+
+**[TBD]()**
+
 ### Content Management System (CMS)
 
 <!-- **[Prismic](https://prismic.io)** -->
