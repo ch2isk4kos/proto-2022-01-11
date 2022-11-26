@@ -24,9 +24,9 @@
 
 **[TBD]()** _(probably Node)_
 
-### APIs
+<!-- ### APIs
 
-**[TBD]()**
+**[Sportradar](https://developer.sportradar.com/docs/read/basketball/NBA_v7#nba-api-overview)** -->
 
 ### Authentication
 
@@ -37,6 +37,10 @@
 <!-- **[Prismic](https://prismic.io)** -->
 
 **[Prismic](https://github.com/prismicio/reactjs-blog)**
+
+### Database(s)
+
+**[MongoDB Atlas](https://www.mongodb.com/atlas)**
 
 ### Payment Management System (PMS)
 
