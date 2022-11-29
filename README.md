@@ -42,8 +42,8 @@
 
 **[MongoDB Atlas](https://www.mongodb.com/atlas)**
 
-### Payment Management System (PMS)
+<!-- ### Payment Management System (PMS) -->
 
-**[TBD]()** _(Shopify vs Stripe)_
+<!-- **[TBD]()** _(Shopify vs Stripe)_ -->
 
 <br>
