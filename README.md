@@ -20,6 +20,8 @@
 
 **[Framer Motion](https://www.framer.com/motion/)**
 
+**[Inkscape](https://inkscape.org)**
+
 ### Server
 
 **[TBD]()** _(probably Node)_
