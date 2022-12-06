@@ -241,3 +241,10 @@ Nav Link {
   /* border: 0.123em solid lightgray; */
   border: 2px solid blue;
 }
+
+/* SIGNUP */
+
+.Signup {
+  height: auto;
+  overflow-y: scroll;
+}
